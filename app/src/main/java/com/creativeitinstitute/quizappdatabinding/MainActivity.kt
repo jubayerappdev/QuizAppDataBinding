@@ -1,5 +1,6 @@
 package com.creativeitinstitute.quizappdatabinding
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,7 @@ import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
